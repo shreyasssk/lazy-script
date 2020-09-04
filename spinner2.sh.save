@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo apt-get update > /dev/null & PID=$!
+
+s='-\|/'; i=0; while kill -0 $pid; do i=$(( (i+1) %4 )); printf "\r${s:$i:
