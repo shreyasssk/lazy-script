@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "This is just a test script to check curl command"
+export DB="mongodb://mongo:27017/db"
